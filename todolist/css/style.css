@@ -1,0 +1,291 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    background: linear-gradient(to right, rgba(255, 126, 95, 0.8), rgba(254, 180, 123, 0.8));
+        font-family: "Rubik Wet Paint", system-ui;
+        font-weight: 400;
+        font-style: normal; 
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    margin-left: 10%;
+   margin-top: 8%;
+    width: 80%;
+    height: 50%;
+    gap: 20px;
+}
+.main .error{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+    position: absolute;
+ 
+    width: 410px;
+    background: transparent;
+    margin-top: -15%;
+    margin-left: 65%;
+    color: red;
+}
+ 
+ input{
+    width: 30%;
+    height: 50px;
+    box-shadow: 5px 5px 10px 5px gray ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+}
+
+form input::placeholder{
+    color: rgb(10, 12, 12);
+    padding: 10px;
+    
+}
+ form div{
+    display:flex;
+   
+   gap: 20px;
+    width: 100%;
+}
+form label{
+   display: flex;
+  
+    width: 40%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.main form .submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit input{
+    width: 45%;
+    cursor: pointer;
+   background: rgb(159, 59, 241);
+   color: beige;
+   font-size: larger;
+}
+
+.submit  a{
+    text-decoration: none;
+    color: rgb(159, 59, 241);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -05%;
+    height: 70px;
+}
+header .left{
+    width: fit-content;
+    height: 48px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 8px black;
+    box-sizing:border-box;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   border-radius: 10px;
+   
+}
+
+header .left img{
+    width:58%;
+}
+header .left h4{
+    width: 120px;
+    font-size: 20px;
+   
+}
+header .right{
+       display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: fit-content;
+    height: 48px;
+    border:1px solid transparent;
+    box-shadow: 5px 5px 8px black;
+    box-sizing:border-box;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header .right button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #6374AE;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 8px black;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+hr{
+    width: 100%;
+}
+
+.main form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    gap: 20px;
+  
+}
+.btm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+.btm .write{
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.btm .write button{
+    position: absolute;
+    width: 12vw;
+    height: 12vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #b2e0ff;
+    box-shadow: 5px 5px 8px black,0px 5px 8px black;
+    margin-left: 29vw;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.write input{
+    width: 80%;
+    height: 12vh;
+    box-shadow: 5px 5px 10px 5px gray ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.right a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Content{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   flex-direction: column;
+    
+    gap: 20px;
+    box-shadow: 5px 5px 10px 5px gray ;
+    border: 3px solid black;
+    outline: none;
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 10px;
+  
+}
+
+.Input1 input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Content .action1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+}
+
+.edit1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 20px;
+   
+}
+
+.edit1 img{
+    width: 20px;
+}
+
+.update1{
+    background: #ffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 5px gray ;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete1{
+    background: #ffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 5px gray ;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.action1 img{
+    width: 30px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
